@@ -1,0 +1,14 @@
+
+
+ALGORITHM  dot_product
+VAR
+    t,v  : ARRAY_OF type[n];
+BEGIN
+    for i de 0 a n do
+ps:=ps+(t[i]*v[i])
+IF (ps=0) THEN
+    write ("les deux vecteurs sont orthogonaux")
+    ELSE
+    write ("les deux vecteurs ne sont pas orthogonaux");
+END_IF
+END
